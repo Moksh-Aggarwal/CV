@@ -53,10 +53,10 @@ nav ul li
 
 nav ul li a
 {
-    padding-left: 3cm;
+    padding-left: 1cm;
     
   color: #fff;
-  font-size: 50px ;
+  font-size: 40px ;
   position: relative; 
   text-decoration: none; 
   
@@ -80,15 +80,15 @@ nav ul li a:hover::after
 
 .header-text
 {
-    margin-top: 10%;
-    font-size: 60px; 
+    margin-top: 5%;
+    font-size: 30px; 
 }
 
 .header-text h1,h2
 {
     
-    font-size: 80px;
-    margin-top: 40px;
+    font-size: 50px;
+    margin-top: 2cm;
 }
 
 .header-text h1
@@ -214,7 +214,7 @@ nav ul li a:hover::after
 {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-    grid-gap: 40px;
+    grid-gap: 10px;
     margin-top: 50px;
 }
 
@@ -236,17 +236,17 @@ nav ul li a:hover::after
 }
 .services-list div h2
 {
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 500;
     margin-bottom: 15px;
 }
 .services-list div p
 {
-    font-size: 40px;
+    font-size: 25px;
 }
 .services-list div:hover
 {
-    background-color:rgb(226, 74, 160)    ;
+    background-color:rgb(227, 122, 223)    ;
     transform:translateY(-10px) ;
 }
 
