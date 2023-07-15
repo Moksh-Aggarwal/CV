@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <title>Moksh's CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/b2f8385a35.js" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="image/iconf.jpg" class="icon" width="600" height="200">
+        <ul>
+          <li> <a href="#header">Home</a> </li>
+          <li> <a href="#about">About</a> </li>
+          <li> <a href="#services">Hobbies</a> </li>
+          <li> <a href="#contact">Contact</a> </li>
+        </ul>
+
+      </nav>
+      <div class="header-text">
+        <p>Python Developer</p>
+        <h1>Hello! I'm <span> Moksh </span>  </h1>
+        <h2>A Computer Science Engineering Student </h2>
+      </div>
+
+    
+    </div>
+  </div>
+<!-- ----------ABOUT--------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col1"><img src="IMAGE/aboutme.jpg" alt=""></div>
+        <div class="about-col2">
+          <h1 class="subtitle" > ABOUT ME </h1>
+          <p class="subs2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sint fugit tenetur perspiciatis neque vero ipsam eius alias voluptates natus, nisi expedita quo explicabo eligendi fugiat unde voluptas repellendus ab voluptate nulla saepe harum. Iure, impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor numquam distinctio recusandae natus earum eligendi quasi, deserunt dolorem placeat corporis ratione debitis! Facere cumque mollitia minima obcaecati deleniti ex! Eius ex praesentium excepturi necessitatibus laborum.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+           
+          </div>
+          <div class="tab-content active-tab id="Skills">
+            <ul>
+              <li><span>Web Developement</span><br>Designing Web Interfaces</li>
+              <li><span>DSA</span><br>Solving DSA Tasks</li>
+            </ul>
+
+          </div>
+          <div class="tab-content  id="Education">
+            <ul>
+              <li><span>Meticulate (2020)</span><br>Tagore Public School</li>
+              <li><span>Senior Secondary (2019-2021)</span><br>Gyan Mandir Public School</li>
+              <li><span>B.Tech(CSE) (2021-2025)</span><br>Bhagwan Parshuram Institute Of Technology</li>
+            </ul>
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ----------Hobbies--------------- -->
+ 
+  <div id="services">
+   <div class="container">
+     
+    <h1 class="subtitle" > MY HOBBIES </h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-book"></i> 
+        <h2> Reading Books</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id est cupiditate non praesentium impedit doloribus voluptas modi explicabo perferendis quos! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima necessitatibus maxime voluptates. Optio vero libero placeat tenetur quaerat. Soluta eos, eius ducimus aliquam qui ad iusto unde quo aliquid laboriosam!
+        </p>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-music"></i>
+        <h2> Playing Musical Instruments </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id est cupiditate non praesentium impedit doloribus voluptas modi explicabo perferendis quos! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima necessitatibus maxime voluptates. Optio vero libero placeat tenetur quaerat. Soluta eos, eius ducimus aliquam qui ad iusto unde quo aliquid laboriosam!
+
+        </p>
+      </div>
+  
+    </div>
+  
+   </div>
+ </div>
+<hr>
+ <!-- --------contact------------->
+ <div id="contact">
+   <div class="container">
+     <div class="row">
+       <div class="contact-left">
+         <h1 class="subtitle">Contact Me</h1>
+         <p><i class="fa-sharp fa-regular fa-envelope"></i>mokshaggarwal.17@gmail.com</p>
+         <p> <i class="fa-solid fa-phone"></i> +91 8851635395</p>
+
+         <!------social media--------->
+         <div class="social-icons">
+         <a href="https://www.instagram.com/moksh__aggarwal/"><i class="fa-brands fa-instagram"></i></a>
+         <a href="https://in.linkedin.com/in/mokshaggarwal"><i class="fa-brands fa-linkedin"></i></a>
+         <a href="https://github.com/Moksh-Aggarwal/Moksh-Aggarwal"><i class="fa-brands fa-github"></i></a>
+         <a href="https://www.facebook.com/moksh.aggarwal.10"><i class="fa-brands fa-facebook"></i></a></div>
+         <!------------------------------>
+
+       </div>
+       <div class="contact-right">
+         <form >
+           <input type="text" name="Name" placeholder="Your Name" required>
+           <input type="text" name="Email" placeholder="Your Email" required>
+           <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+           <button type="Submit" class="btn btn2">Submit</button>
+         </form>
+       </div>
+     </div>
+
+   </div>
+   <hr class="">
+   <div class="copyright">
+     <p>Copyright <i class="fa-regular fa-copyright"></i> Moksh Aggarwal <i class="fa-brands fa-html5"></i> </p>
+   </div>
+ </div>
+
+  <script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontent= document.getElementsByClassName("tab-content");
+    function opentab(tabname)
+    {
+      for(tablink of tablinks)
+      {
+        tablink.classList.remove("active-link")
+      }
+      for(tabcontent of tabcontent)
+      {
+        tabcontent.classList.remove("active-tab")
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  
+  
+</body>
+</html>
